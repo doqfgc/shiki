@@ -1,0 +1,11 @@
+C:\Users\Kazusa\Documents\GitHub\shiki\Projekt Shiki\Projekt Shiki\bin\Debug\Melee Toolbox.exe.config
+C:\Users\Kazusa\Documents\GitHub\shiki\Projekt Shiki\Projekt Shiki\bin\Debug\Melee Toolbox.exe
+C:\Users\Kazusa\Documents\GitHub\shiki\Projekt Shiki\Projekt Shiki\bin\Debug\Melee Toolbox.pdb
+C:\Users\Kazusa\Documents\GitHub\shiki\Projekt Shiki\Projekt Shiki\bin\Debug\Melee Toolbox.xml
+C:\Users\Kazusa\Documents\GitHub\shiki\Projekt Shiki\Projekt Shiki\obj\Debug\Projekt Shiki.vbprojResolveAssemblyReference.cache
+C:\Users\Kazusa\Documents\GitHub\shiki\Projekt Shiki\Projekt Shiki\obj\Debug\mtb.mtb.resources
+C:\Users\Kazusa\Documents\GitHub\shiki\Projekt Shiki\Projekt Shiki\obj\Debug\mtb.Resources.resources
+C:\Users\Kazusa\Documents\GitHub\shiki\Projekt Shiki\Projekt Shiki\obj\Debug\Projekt Shiki.vbproj.GenerateResource.Cache
+C:\Users\Kazusa\Documents\GitHub\shiki\Projekt Shiki\Projekt Shiki\obj\Debug\Melee Toolbox.exe
+C:\Users\Kazusa\Documents\GitHub\shiki\Projekt Shiki\Projekt Shiki\obj\Debug\Melee Toolbox.xml
+C:\Users\Kazusa\Documents\GitHub\shiki\Projekt Shiki\Projekt Shiki\obj\Debug\Melee Toolbox.pdb
