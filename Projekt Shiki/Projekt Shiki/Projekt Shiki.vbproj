@@ -75,6 +75,12 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AboutToolbox.Designer.vb">
+      <DependentUpon>AboutToolbox.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AboutToolbox.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Melee Toolbox.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -99,6 +105,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="AboutToolbox.resx">
+      <DependentUpon>AboutToolbox.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Melee Toolbox.resx">
       <DependentUpon>Melee Toolbox.vb</DependentUpon>
     </EmbeddedResource>

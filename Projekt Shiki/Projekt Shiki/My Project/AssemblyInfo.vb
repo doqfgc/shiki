@@ -8,11 +8,11 @@ Imports System.Runtime.InteropServices
 
 ' Review the values of the assembly attributes
 
-<Assembly: AssemblyTitle("Projekt Shiki")>
-<Assembly: AssemblyDescription("")>
-<Assembly: AssemblyCompany("")>
-<Assembly: AssemblyProduct("Projekt Shiki")>
-<Assembly: AssemblyCopyright("Copyright ©  2016")>
+<Assembly: AssemblyTitle("Melee Toolbox")>
+<Assembly: AssemblyDescription("The Melee Toolbox is a package compilation of tools used for modifying code and files in Super Smash Bros. Melee. This project, Projekt Shiki, provides an accessible point-and-click GUI to launch these applications.")>
+<Assembly: AssemblyCompany("Doqtor Kirby")>
+<Assembly: AssemblyProduct("Melee Toolbox")>
+<Assembly: AssemblyCopyright("Copyright © 2015, 16")>
 <Assembly: AssemblyTrademark("")>
 
 <Assembly: ComVisible(False)>
@@ -31,5 +31,5 @@ Imports System.Runtime.InteropServices
 ' by using the '*' as shown below:
 ' <Assembly: AssemblyVersion("1.0.*")> 
 
-<Assembly: AssemblyVersion("1.0.0.0")>
-<Assembly: AssemblyFileVersion("1.0.0.0")>
+<Assembly: AssemblyVersion("4.0")>
+<Assembly: AssemblyFileVersion("1.0.0.1")>

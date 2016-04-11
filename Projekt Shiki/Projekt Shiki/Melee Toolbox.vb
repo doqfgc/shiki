@@ -92,10 +92,8 @@
     End Sub
 
     Private Sub AboutMeleeToolboxToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles AboutMeleeToolboxToolStripMenuItem.Click
-        MessageBox.Show("Melee Toolbox 4.0" + Environment.NewLine +
-                        "Compiled on " + DateString + " " + TimeString + Environment.NewLine + Environment.NewLine +
-                        "Copyright 2015, 16 Doqtor Kirby" + Environment.NewLine +
-                        "Melee Toolbox is provided to you under the terms of the GNU General Public License version 3.")
+        Dim AboutBox As New AboutToolbox
+        AboutBox.Show()
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
@@ -129,9 +127,7 @@
     End Sub
 
     Private Sub Button8_Click(sender As Object, e As EventArgs) Handles Button8.Click
-        MessageBox.Show("Melee Toolbox 4.0" + Environment.NewLine +
-                        "Compiled on " + DateString + " " + TimeString + Environment.NewLine + Environment.NewLine +
-                        "Copyright 2015, 16 Doqtor Kirby" + Environment.NewLine +
-                        "Melee Toolbox is provided to you under the terms of the GNU General Public License version 3.")
+        Dim AboutBox As New AboutToolbox
+        AboutBox.Show()
     End Sub
 End Class
