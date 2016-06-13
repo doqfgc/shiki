@@ -10,3 +10,4 @@ C:\Users\Kazusa\Documents\GitHub\shiki\Projekt Shiki\Projekt Shiki\obj\Debug\Mel
 C:\Users\Kazusa\Documents\GitHub\shiki\Projekt Shiki\Projekt Shiki\obj\Debug\Melee Toolbox.xml
 C:\Users\Kazusa\Documents\GitHub\shiki\Projekt Shiki\Projekt Shiki\obj\Debug\Melee Toolbox.pdb
 C:\Users\Kazusa\Documents\GitHub\shiki\Projekt Shiki\Projekt Shiki\obj\Debug\mtb.AboutToolbox.resources
+C:\Users\Kazusa\Documents\GitHub\shiki\Projekt Shiki\Projekt Shiki\obj\Debug\mtb.AppCredits.resources

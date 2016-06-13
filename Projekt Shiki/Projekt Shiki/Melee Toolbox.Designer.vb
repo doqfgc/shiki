@@ -25,7 +25,10 @@ Partial Class mtb
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(mtb))
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
         Me.AudioToolsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.XXMusicManagerToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.D2hguiToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.HPSAutoToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.MeleeAudioConverterToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.TextureToolsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.DATTextureWizardToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MeleeToolkitToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -51,9 +54,30 @@ Partial Class mtb
         Me.LaserChangerToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.HelpToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.UpdateApplicationsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.XXMusicManagerToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ASMTofromWiiRDToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.CrazyHandToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.D2hguiToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.DATTextureWizardToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.DolphinDFToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.EffectsChangerToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.GCRebuilderToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.HPSAutoToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.HxDToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.LaserChangerToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.MeleeAudioConverterToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.MeleeCodeManagerToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.MeleeToolboxToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.MeleeToolkitToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ProjektLenToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.SSBMVersionPatcherToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.TextureFinderToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.UniversalModelConverterToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.VertConvertToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
         Me.UpdateToolboxToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ToolStripMenuItem3 = New System.Windows.Forms.ToolStripSeparator()
         Me.AboutMeleeToolboxToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ApplicationCreditsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.Mainlabel = New System.Windows.Forms.Label()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
@@ -77,16 +101,34 @@ Partial Class mtb
         '
         'AudioToolsToolStripMenuItem
         '
-        Me.AudioToolsToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.HPSAutoToolStripMenuItem})
+        Me.AudioToolsToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.XXMusicManagerToolStripMenuItem, Me.D2hguiToolStripMenuItem, Me.HPSAutoToolStripMenuItem, Me.MeleeAudioConverterToolStripMenuItem})
         Me.AudioToolsToolStripMenuItem.Name = "AudioToolsToolStripMenuItem"
         Me.AudioToolsToolStripMenuItem.Size = New System.Drawing.Size(82, 20)
         Me.AudioToolsToolStripMenuItem.Text = "Audio Tools"
         '
+        'XXMusicManagerToolStripMenuItem
+        '
+        Me.XXMusicManagerToolStripMenuItem.Name = "XXMusicManagerToolStripMenuItem"
+        Me.XXMusicManagerToolStripMenuItem.Size = New System.Drawing.Size(196, 22)
+        Me.XXMusicManagerToolStripMenuItem.Text = "20XX Music Manager"
+        '
+        'D2hguiToolStripMenuItem
+        '
+        Me.D2hguiToolStripMenuItem.Name = "D2hguiToolStripMenuItem"
+        Me.D2hguiToolStripMenuItem.Size = New System.Drawing.Size(196, 22)
+        Me.D2hguiToolStripMenuItem.Text = "d2hgui"
+        '
         'HPSAutoToolStripMenuItem
         '
         Me.HPSAutoToolStripMenuItem.Name = "HPSAutoToolStripMenuItem"
-        Me.HPSAutoToolStripMenuItem.Size = New System.Drawing.Size(122, 22)
+        Me.HPSAutoToolStripMenuItem.Size = New System.Drawing.Size(196, 22)
         Me.HPSAutoToolStripMenuItem.Text = "HPSAuto"
+        '
+        'MeleeAudioConverterToolStripMenuItem
+        '
+        Me.MeleeAudioConverterToolStripMenuItem.Name = "MeleeAudioConverterToolStripMenuItem"
+        Me.MeleeAudioConverterToolStripMenuItem.Size = New System.Drawing.Size(196, 22)
+        Me.MeleeAudioConverterToolStripMenuItem.Text = "Melee Audio Converter"
         '
         'TextureToolsToolStripMenuItem
         '
@@ -134,7 +176,6 @@ Partial Class mtb
         '
         'UniversalModelConverterToolStripMenuItem
         '
-        Me.UniversalModelConverterToolStripMenuItem.Enabled = False
         Me.UniversalModelConverterToolStripMenuItem.Name = "UniversalModelConverterToolStripMenuItem"
         Me.UniversalModelConverterToolStripMenuItem.Size = New System.Drawing.Size(214, 22)
         Me.UniversalModelConverterToolStripMenuItem.Text = "Universal Model Converter"
@@ -210,10 +251,9 @@ Partial Class mtb
         '
         'ProjektNekoToolStripMenuItem
         '
-        Me.ProjektNekoToolStripMenuItem.Enabled = False
         Me.ProjektNekoToolStripMenuItem.Name = "ProjektNekoToolStripMenuItem"
         Me.ProjektNekoToolStripMenuItem.Size = New System.Drawing.Size(188, 22)
-        Me.ProjektNekoToolStripMenuItem.Text = "Projekt Neko"
+        Me.ProjektNekoToolStripMenuItem.Text = "Projekt Len"
         '
         'MiscellaneousToolsToolStripMenuItem
         '
@@ -236,21 +276,140 @@ Partial Class mtb
         '
         'HelpToolStripMenuItem
         '
-        Me.HelpToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.UpdateApplicationsToolStripMenuItem, Me.UpdateToolboxToolStripMenuItem, Me.ToolStripMenuItem3, Me.AboutMeleeToolboxToolStripMenuItem})
+        Me.HelpToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.UpdateApplicationsToolStripMenuItem, Me.UpdateToolboxToolStripMenuItem, Me.ToolStripMenuItem3, Me.AboutMeleeToolboxToolStripMenuItem, Me.ApplicationCreditsToolStripMenuItem})
         Me.HelpToolStripMenuItem.Name = "HelpToolStripMenuItem"
         Me.HelpToolStripMenuItem.Size = New System.Drawing.Size(92, 20)
         Me.HelpToolStripMenuItem.Text = "Toolbox Tools"
         '
         'UpdateApplicationsToolStripMenuItem
         '
-        Me.UpdateApplicationsToolStripMenuItem.Enabled = False
+        Me.UpdateApplicationsToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.XXMusicManagerToolStripMenuItem1, Me.ASMTofromWiiRDToolStripMenuItem1, Me.CrazyHandToolStripMenuItem1, Me.D2hguiToolStripMenuItem1, Me.DATTextureWizardToolStripMenuItem1, Me.DolphinDFToolStripMenuItem, Me.EffectsChangerToolStripMenuItem1, Me.GCRebuilderToolStripMenuItem1, Me.HPSAutoToolStripMenuItem1, Me.HxDToolStripMenuItem1, Me.LaserChangerToolStripMenuItem1, Me.MeleeAudioConverterToolStripMenuItem1, Me.MeleeCodeManagerToolStripMenuItem1, Me.MeleeToolboxToolStripMenuItem1, Me.MeleeToolkitToolStripMenuItem1, Me.ProjektLenToolStripMenuItem, Me.SSBMVersionPatcherToolStripMenuItem1, Me.TextureFinderToolStripMenuItem1, Me.UniversalModelConverterToolStripMenuItem1, Me.VertConvertToolStripMenuItem1})
         Me.UpdateApplicationsToolStripMenuItem.Name = "UpdateApplicationsToolStripMenuItem"
         Me.UpdateApplicationsToolStripMenuItem.Size = New System.Drawing.Size(187, 22)
         Me.UpdateApplicationsToolStripMenuItem.Text = "Update Applications"
         '
+        'XXMusicManagerToolStripMenuItem1
+        '
+        Me.XXMusicManagerToolStripMenuItem1.Name = "XXMusicManagerToolStripMenuItem1"
+        Me.XXMusicManagerToolStripMenuItem1.Size = New System.Drawing.Size(214, 22)
+        Me.XXMusicManagerToolStripMenuItem1.Text = "20XX Music Manager"
+        '
+        'ASMTofromWiiRDToolStripMenuItem1
+        '
+        Me.ASMTofromWiiRDToolStripMenuItem1.Name = "ASMTofromWiiRDToolStripMenuItem1"
+        Me.ASMTofromWiiRDToolStripMenuItem1.Size = New System.Drawing.Size(214, 22)
+        Me.ASMTofromWiiRDToolStripMenuItem1.Text = "ASM to-from WiiRD"
+        '
+        'CrazyHandToolStripMenuItem1
+        '
+        Me.CrazyHandToolStripMenuItem1.Name = "CrazyHandToolStripMenuItem1"
+        Me.CrazyHandToolStripMenuItem1.Size = New System.Drawing.Size(214, 22)
+        Me.CrazyHandToolStripMenuItem1.Text = "Crazy Hand"
+        '
+        'D2hguiToolStripMenuItem1
+        '
+        Me.D2hguiToolStripMenuItem1.Name = "D2hguiToolStripMenuItem1"
+        Me.D2hguiToolStripMenuItem1.Size = New System.Drawing.Size(214, 22)
+        Me.D2hguiToolStripMenuItem1.Text = "d2hgui"
+        '
+        'DATTextureWizardToolStripMenuItem1
+        '
+        Me.DATTextureWizardToolStripMenuItem1.Name = "DATTextureWizardToolStripMenuItem1"
+        Me.DATTextureWizardToolStripMenuItem1.Size = New System.Drawing.Size(214, 22)
+        Me.DATTextureWizardToolStripMenuItem1.Text = "DAT Texture Wizard"
+        '
+        'DolphinDFToolStripMenuItem
+        '
+        Me.DolphinDFToolStripMenuItem.Name = "DolphinDFToolStripMenuItem"
+        Me.DolphinDFToolStripMenuItem.Size = New System.Drawing.Size(214, 22)
+        Me.DolphinDFToolStripMenuItem.Text = "Dolphin/DF"
+        '
+        'EffectsChangerToolStripMenuItem1
+        '
+        Me.EffectsChangerToolStripMenuItem1.Name = "EffectsChangerToolStripMenuItem1"
+        Me.EffectsChangerToolStripMenuItem1.Size = New System.Drawing.Size(214, 22)
+        Me.EffectsChangerToolStripMenuItem1.Text = "Effects Changer"
+        '
+        'GCRebuilderToolStripMenuItem1
+        '
+        Me.GCRebuilderToolStripMenuItem1.Name = "GCRebuilderToolStripMenuItem1"
+        Me.GCRebuilderToolStripMenuItem1.Size = New System.Drawing.Size(214, 22)
+        Me.GCRebuilderToolStripMenuItem1.Text = "GCRebuilder"
+        '
+        'HPSAutoToolStripMenuItem1
+        '
+        Me.HPSAutoToolStripMenuItem1.Name = "HPSAutoToolStripMenuItem1"
+        Me.HPSAutoToolStripMenuItem1.Size = New System.Drawing.Size(214, 22)
+        Me.HPSAutoToolStripMenuItem1.Text = "HPSAuto"
+        '
+        'HxDToolStripMenuItem1
+        '
+        Me.HxDToolStripMenuItem1.Name = "HxDToolStripMenuItem1"
+        Me.HxDToolStripMenuItem1.Size = New System.Drawing.Size(214, 22)
+        Me.HxDToolStripMenuItem1.Text = "HxD"
+        '
+        'LaserChangerToolStripMenuItem1
+        '
+        Me.LaserChangerToolStripMenuItem1.Name = "LaserChangerToolStripMenuItem1"
+        Me.LaserChangerToolStripMenuItem1.Size = New System.Drawing.Size(214, 22)
+        Me.LaserChangerToolStripMenuItem1.Text = "Laser Changer"
+        '
+        'MeleeAudioConverterToolStripMenuItem1
+        '
+        Me.MeleeAudioConverterToolStripMenuItem1.Name = "MeleeAudioConverterToolStripMenuItem1"
+        Me.MeleeAudioConverterToolStripMenuItem1.Size = New System.Drawing.Size(214, 22)
+        Me.MeleeAudioConverterToolStripMenuItem1.Text = "Melee Audio Converter"
+        '
+        'MeleeCodeManagerToolStripMenuItem1
+        '
+        Me.MeleeCodeManagerToolStripMenuItem1.Name = "MeleeCodeManagerToolStripMenuItem1"
+        Me.MeleeCodeManagerToolStripMenuItem1.Size = New System.Drawing.Size(214, 22)
+        Me.MeleeCodeManagerToolStripMenuItem1.Text = "Melee Code Manager"
+        '
+        'MeleeToolboxToolStripMenuItem1
+        '
+        Me.MeleeToolboxToolStripMenuItem1.Name = "MeleeToolboxToolStripMenuItem1"
+        Me.MeleeToolboxToolStripMenuItem1.Size = New System.Drawing.Size(214, 22)
+        Me.MeleeToolboxToolStripMenuItem1.Text = "Melee Toolbox"
+        '
+        'MeleeToolkitToolStripMenuItem1
+        '
+        Me.MeleeToolkitToolStripMenuItem1.Name = "MeleeToolkitToolStripMenuItem1"
+        Me.MeleeToolkitToolStripMenuItem1.Size = New System.Drawing.Size(214, 22)
+        Me.MeleeToolkitToolStripMenuItem1.Text = "Melee Toolkit"
+        '
+        'ProjektLenToolStripMenuItem
+        '
+        Me.ProjektLenToolStripMenuItem.Name = "ProjektLenToolStripMenuItem"
+        Me.ProjektLenToolStripMenuItem.Size = New System.Drawing.Size(214, 22)
+        Me.ProjektLenToolStripMenuItem.Text = "Projekt Len"
+        '
+        'SSBMVersionPatcherToolStripMenuItem1
+        '
+        Me.SSBMVersionPatcherToolStripMenuItem1.Name = "SSBMVersionPatcherToolStripMenuItem1"
+        Me.SSBMVersionPatcherToolStripMenuItem1.Size = New System.Drawing.Size(214, 22)
+        Me.SSBMVersionPatcherToolStripMenuItem1.Text = "SSBM Version Patcher"
+        '
+        'TextureFinderToolStripMenuItem1
+        '
+        Me.TextureFinderToolStripMenuItem1.Name = "TextureFinderToolStripMenuItem1"
+        Me.TextureFinderToolStripMenuItem1.Size = New System.Drawing.Size(214, 22)
+        Me.TextureFinderToolStripMenuItem1.Text = "Texture Finder"
+        '
+        'UniversalModelConverterToolStripMenuItem1
+        '
+        Me.UniversalModelConverterToolStripMenuItem1.Name = "UniversalModelConverterToolStripMenuItem1"
+        Me.UniversalModelConverterToolStripMenuItem1.Size = New System.Drawing.Size(214, 22)
+        Me.UniversalModelConverterToolStripMenuItem1.Text = "Universal Model Converter"
+        '
+        'VertConvertToolStripMenuItem1
+        '
+        Me.VertConvertToolStripMenuItem1.Name = "VertConvertToolStripMenuItem1"
+        Me.VertConvertToolStripMenuItem1.Size = New System.Drawing.Size(214, 22)
+        Me.VertConvertToolStripMenuItem1.Text = "VertConvert"
+        '
         'UpdateToolboxToolStripMenuItem
         '
-        Me.UpdateToolboxToolStripMenuItem.Enabled = False
         Me.UpdateToolboxToolStripMenuItem.Name = "UpdateToolboxToolStripMenuItem"
         Me.UpdateToolboxToolStripMenuItem.Size = New System.Drawing.Size(187, 22)
         Me.UpdateToolboxToolStripMenuItem.Text = "Update Toolbox"
@@ -265,6 +424,12 @@ Partial Class mtb
         Me.AboutMeleeToolboxToolStripMenuItem.Name = "AboutMeleeToolboxToolStripMenuItem"
         Me.AboutMeleeToolboxToolStripMenuItem.Size = New System.Drawing.Size(187, 22)
         Me.AboutMeleeToolboxToolStripMenuItem.Text = "About Melee Toolbox"
+        '
+        'ApplicationCreditsToolStripMenuItem
+        '
+        Me.ApplicationCreditsToolStripMenuItem.Name = "ApplicationCreditsToolStripMenuItem"
+        Me.ApplicationCreditsToolStripMenuItem.Size = New System.Drawing.Size(187, 22)
+        Me.ApplicationCreditsToolStripMenuItem.Text = "Application Credits"
         '
         'Mainlabel
         '
@@ -366,7 +531,7 @@ Partial Class mtb
         Me.Controls.Add(Me.MenuStrip1)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "mtb"
-        Me.Text = "Melee Toolbox 4.0"
+        Me.Text = "Melee Toolbox 4.5"
         Me.MenuStrip1.ResumeLayout(False)
         Me.MenuStrip1.PerformLayout()
         Me.ResumeLayout(False)
@@ -414,4 +579,28 @@ Partial Class mtb
     Friend WithEvents Button6 As Button
     Friend WithEvents Button7 As Button
     Friend WithEvents Button8 As Button
+    Friend WithEvents XXMusicManagerToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents ApplicationCreditsToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents D2hguiToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents MeleeAudioConverterToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents XXMusicManagerToolStripMenuItem1 As ToolStripMenuItem
+    Friend WithEvents ASMTofromWiiRDToolStripMenuItem1 As ToolStripMenuItem
+    Friend WithEvents CrazyHandToolStripMenuItem1 As ToolStripMenuItem
+    Friend WithEvents D2hguiToolStripMenuItem1 As ToolStripMenuItem
+    Friend WithEvents DATTextureWizardToolStripMenuItem1 As ToolStripMenuItem
+    Friend WithEvents DolphinDFToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents EffectsChangerToolStripMenuItem1 As ToolStripMenuItem
+    Friend WithEvents GCRebuilderToolStripMenuItem1 As ToolStripMenuItem
+    Friend WithEvents HPSAutoToolStripMenuItem1 As ToolStripMenuItem
+    Friend WithEvents HxDToolStripMenuItem1 As ToolStripMenuItem
+    Friend WithEvents LaserChangerToolStripMenuItem1 As ToolStripMenuItem
+    Friend WithEvents MeleeAudioConverterToolStripMenuItem1 As ToolStripMenuItem
+    Friend WithEvents MeleeCodeManagerToolStripMenuItem1 As ToolStripMenuItem
+    Friend WithEvents MeleeToolboxToolStripMenuItem1 As ToolStripMenuItem
+    Friend WithEvents MeleeToolkitToolStripMenuItem1 As ToolStripMenuItem
+    Friend WithEvents ProjektLenToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents SSBMVersionPatcherToolStripMenuItem1 As ToolStripMenuItem
+    Friend WithEvents TextureFinderToolStripMenuItem1 As ToolStripMenuItem
+    Friend WithEvents UniversalModelConverterToolStripMenuItem1 As ToolStripMenuItem
+    Friend WithEvents VertConvertToolStripMenuItem1 As ToolStripMenuItem
 End Class

@@ -1,0 +1,13 @@
+C:\Users\Kazusa\Documents\GitHub\shiki\Projekt Shiki\Projekt Shiki\bin\Release\Melee Toolbox.exe.config
+C:\Users\Kazusa\Documents\GitHub\shiki\Projekt Shiki\Projekt Shiki\bin\Release\Melee Toolbox.exe
+C:\Users\Kazusa\Documents\GitHub\shiki\Projekt Shiki\Projekt Shiki\bin\Release\Melee Toolbox.pdb
+C:\Users\Kazusa\Documents\GitHub\shiki\Projekt Shiki\Projekt Shiki\bin\Release\Melee Toolbox.xml
+C:\Users\Kazusa\Documents\GitHub\shiki\Projekt Shiki\Projekt Shiki\obj\Release\Projekt Shiki.vbprojResolveAssemblyReference.cache
+C:\Users\Kazusa\Documents\GitHub\shiki\Projekt Shiki\Projekt Shiki\obj\Release\mtb.AboutToolbox.resources
+C:\Users\Kazusa\Documents\GitHub\shiki\Projekt Shiki\Projekt Shiki\obj\Release\mtb.AppCredits.resources
+C:\Users\Kazusa\Documents\GitHub\shiki\Projekt Shiki\Projekt Shiki\obj\Release\mtb.mtb.resources
+C:\Users\Kazusa\Documents\GitHub\shiki\Projekt Shiki\Projekt Shiki\obj\Release\mtb.Resources.resources
+C:\Users\Kazusa\Documents\GitHub\shiki\Projekt Shiki\Projekt Shiki\obj\Release\Projekt Shiki.vbproj.GenerateResource.Cache
+C:\Users\Kazusa\Documents\GitHub\shiki\Projekt Shiki\Projekt Shiki\obj\Release\Melee Toolbox.exe
+C:\Users\Kazusa\Documents\GitHub\shiki\Projekt Shiki\Projekt Shiki\obj\Release\Melee Toolbox.xml
+C:\Users\Kazusa\Documents\GitHub\shiki\Projekt Shiki\Projekt Shiki\obj\Release\Melee Toolbox.pdb

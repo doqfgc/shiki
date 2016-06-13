@@ -24,7 +24,7 @@
     End Sub
 
     Private Sub Hmpgbtn_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Hmpgbtn.Click
-        Dim mtbhomepage As String = "http://www.toolbox.cf/"
+        Dim mtbhomepage As String = "http://www.github.com/doqtorkirby/akiha"
         Process.Start(mtbhomepage)
     End Sub
 End Class

@@ -81,6 +81,12 @@
     <Compile Include="AboutToolbox.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="AppCredits.Designer.vb">
+      <DependentUpon>AppCredits.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AppCredits.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Melee Toolbox.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -107,6 +113,9 @@
   <ItemGroup>
     <EmbeddedResource Include="AboutToolbox.resx">
       <DependentUpon>AboutToolbox.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AppCredits.resx">
+      <DependentUpon>AppCredits.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Melee Toolbox.resx">
       <DependentUpon>Melee Toolbox.vb</DependentUpon>
